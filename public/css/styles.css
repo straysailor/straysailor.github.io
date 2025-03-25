@@ -1,9 +1,31 @@
 body{
-    font-size: 22px;
+    overflow-x: hidden;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
 }
 .navbar{
+    display:inline-block;
     background-color: #33443c;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
+    width: 100vw;
+    padding: 10px;
+}
+.nav-links {
+    list-style-type: none;
+    margin: 0px 50px 0px 30px;
+    padding: 0;
+}
+.nav-link-li{
+    float: right;
+}
+.nav-link-a {
+    display:block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-name {
+    float: left;
 }
