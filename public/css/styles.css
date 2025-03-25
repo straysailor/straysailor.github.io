@@ -1,0 +1,9 @@
+body{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    background-color: #33443c;
+    color: white;
+    font-size: 15px;
+}
